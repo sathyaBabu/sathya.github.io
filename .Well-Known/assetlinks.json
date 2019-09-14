@@ -1,1 +1,25 @@
-
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.recipe_app",
+    "sha256_cert_fingerprints":
+    ["AE:98:97:60:D7:18:7A:C8:D0:E2:88:7E:96:63:F3:0E:56:F6:B5:8C:BB:39:17:BF:4C:9D:D7:B5:C3:1C:A1:91"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://sathya.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.recipe_app",
+    "sha256_cert_fingerprints":
+    ["AE:98:97:60:D7:18:7A:C8:D0:E2:88:7E:96:63:F3:0E:56:F6:B5:8C:BB:39:17:BF:4C:9D:D7:B5:C3:1C:A1:91"]
+  }
+}]
